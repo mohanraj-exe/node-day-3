@@ -12,7 +12,6 @@ mongo.connectMongoose()
 
 app.use('/', (req,res,next) => {
     
-    {"'Home Page-Domain URL'. Further Routes are provided in the gitHub"}
     console.log("Middle Ware")
     next();
 })
